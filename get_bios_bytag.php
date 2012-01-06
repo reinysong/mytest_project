@@ -15,6 +15,9 @@ $order = trim(addslashes(htmlspecialchars($_GET["order"],ENT_QUOTES)));
 
 //add some comment second
 
+
+//add some comment third by branch1
+
 // 移到正式主機後, 要記得將 user_student_publish 資料複製到 chapter (2012/1/4)
 $sql_query_str = "SELECT * from ((".chapter::$TABLE_NAME." c inner join ".
 		user_student_publish::$TABLE_NAME." usp on c.".chapter::$FIELD_user_sn."=usp.".user_student_publish::$FIELD_user_sn.
