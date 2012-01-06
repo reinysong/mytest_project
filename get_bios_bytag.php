@@ -58,7 +58,7 @@ $date_array = array();
 $view_array = array();
 $like_array = array();
 $headshot_array = array();
-
+// add comment eighth by brance3_new2
 for ($i = 0; $i < count($thumb_result_array); $i++) {
 	$profile_thumb_array[] = USER_UPLOAD_DIR_R.$thumb_result_array[$i][user_student_publish::$FIELD_profile_thumb];
 	$name_array[] = $thumb_result_array[$i][user_student_publish::$FIELD_name];
