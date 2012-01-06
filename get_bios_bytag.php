@@ -61,6 +61,8 @@ $headshot_array = array();
 
 for ($i = 0; $i < count($thumb_result_array); $i++) {
 	$profile_thumb_array[] = USER_UPLOAD_DIR_R.$thumb_result_array[$i][user_student_publish::$FIELD_profile_thumb];
+	
+	// add comment nineth by master
 	$name_array[] = $thumb_result_array[$i][user_student_publish::$FIELD_name];
 	$path_array[] = $thumb_result_array[$i][user_student_publish::$FIELD_path_name];
 	$original_date = $thumb_result_array[$i][user_student_publish::$FIELD_modify_date];
