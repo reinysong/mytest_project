@@ -36,6 +36,8 @@ if ($order == "pageview") {
 
 //add some comment fifth by branch1
 
+
+//add some comment sixth by master
 /*
 $sql_query_str = "SELECT ".user_student_publish::$FIELD_name.", ".
 	user_student_publish::$FIELD_profile_thumb.", ".
@@ -45,6 +47,8 @@ $sql_query_str = "SELECT ".user_student_publish::$FIELD_name.", ".
 	" ORDER BY ".user_student_publish::$FIELD_modify_date." DESC";
 	*/
 	
+//add some comment seventh by branch2
+
 $thumb_result_array = QueryExcuse::getSelectArray($sql_query_str);
 
 $profile_thumb_array = array();
