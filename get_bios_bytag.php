@@ -68,6 +68,8 @@ for ($i = 0; $i < count($thumb_result_array); $i++) {
 	$original_date = $thumb_result_array[$i][user_student_publish::$FIELD_modify_date];
 	$original_date = substr($original_date, 0, 10);
 	$show_date = str_replace("-", "/", $original_date);
+	// add comment tenth by master
+	
 	$date_array[] = $show_date;
 	$view_array[] = $thumb_result_array[$i][chapter::$FIELD_pageview];
 	$like_array[] = $thumb_result_array[$i][chapter::$FIELD_pagelike];
